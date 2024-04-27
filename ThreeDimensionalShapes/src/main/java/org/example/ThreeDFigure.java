@@ -2,8 +2,8 @@ package org.example;
 
 public abstract class ThreeDFigure {
 
-    public abstract Double getPerimeter();
+    public abstract double getPerimeter();
 
-    public abstract Double getArea();
+    public abstract double getArea();
 
 }

@@ -2,7 +2,7 @@ package org.example;
 
 public class Circle extends Figure{
 
-    private double radius;
+    private Double radius;
 
     public Circle(double radius) {
         this.radius = radius;
@@ -17,12 +17,12 @@ public class Circle extends Figure{
     }
 
     @Override
-    public Double getPerimeter() {
+    public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return Math.PI * Math.pow(radius, 2);
     }
 }

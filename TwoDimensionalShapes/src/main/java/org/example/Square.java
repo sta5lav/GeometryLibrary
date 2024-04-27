@@ -27,12 +27,12 @@ public class Square extends Figure {
     }
 
     @Override
-    public Double getPerimeter() {
+    public double getPerimeter() {
         return (length + width) * 2;
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return length * width;
     }
 }

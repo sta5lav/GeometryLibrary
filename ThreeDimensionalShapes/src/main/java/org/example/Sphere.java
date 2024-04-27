@@ -10,17 +10,17 @@ public class Sphere extends ThreeDFigure {
 
 
     @Override
-    public Double getPerimeter() {
+    public double getPerimeter() {
         System.out.println("В контексте данного метода считается объем шара!");
         return getVoleme();
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return 4 * Math.PI * Math.pow(radius, 2);
     }
 
-    private Double getVoleme() {
+    private double getVoleme() {
         return 4 / 3 * Math.PI * Math.pow(radius, 3);
     }
 }

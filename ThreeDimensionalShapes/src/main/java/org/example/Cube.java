@@ -17,12 +17,12 @@ public class Cube extends ThreeDFigure{
     }
 
     @Override
-    public Double getPerimeter() {
+    public double getPerimeter() {
         return 12 * length;
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return 6 * Math.pow(length, 2);
     }
 }

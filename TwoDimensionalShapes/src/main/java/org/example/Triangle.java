@@ -2,9 +2,9 @@ package org.example;
 
 public class Triangle extends Figure{
 
-    private double a;
-    private double b;
-    private double c;
+    private Double a;
+    private Double b;
+    private Double c;
 
     public Triangle(double a, double b, double c) {
         this.a = a;
@@ -37,12 +37,12 @@ public class Triangle extends Figure{
     }
 
     @Override
-    public Double getPerimeter() {
+    public double getPerimeter() {
         return a + b + c;
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return (a * b) / 2;
     }
 }

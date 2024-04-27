@@ -27,12 +27,12 @@ public class Cylinder extends ThreeDFigure{
     }
 
     @Override
-    public Double getPerimeter() {
+    public double getPerimeter() {
         return 2 * (2 * Math.PI * radius + height);
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return 2 * (Math.PI * Math.pow(radius, 2) + Math.PI * radius * height);
     }
 }
